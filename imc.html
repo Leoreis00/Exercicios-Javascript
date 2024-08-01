@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+                 //Calculo do IMC//
+
+        let nome = prompt("Digite seu nome: ");
+        let peso = Number(prompt("Digite seu peso; "));
+        let altura = Number(prompt("Digite sua altura: "));
+
+        let imc = (peso * peso) / altura;
+        let imcformatado = imc.toFixed(2);
+        let consumoagua = peso * 35;
+       
+    
+        alert(`Olá ${nome}, seu IMC é de ${imcformatado} e seu consumo de água diário recomendado deve ser de ${consumoagua} litros por dia`)
+    </script>
+</body>
+</html>

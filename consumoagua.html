@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Calculadora de consumo de água diário//
+
+        //Aqui estou solicitando ao usuário para digitar as informações e declarando suas variáveis//
+        let nome = prompt("Digite seu nome: ");
+        let whatsapp = prompt("Digite seu Whatsapp: ");
+        let peso = Number(prompt("Digite seu peso; "));
+        let altura = Number(prompt("Digite sua altura: "));
+
+        //Aqui estou declarando a variavel consumoagua e fazendo o calculo para ser exibido a seguir em alert//
+        let consumoagua = peso * 35;
+        
+        //Aqui criei um alerta exibindo a mensagem e o resultado do calculo da variável consumoagua//
+        alert(`Olá ${nome}, seu consumo de água diário deve ser de ${consumoagua} litros por dia`)
+
+    </script>
+</body>
+</html>
